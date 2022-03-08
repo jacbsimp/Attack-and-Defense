@@ -8,7 +8,6 @@
 - Suggestions for Going Further
 
 ### Network Topology
-![image](images/network-topo.png)
 The following machines were identified on the network:
 - Name of VM 1
   - **Operating System**: Linux
@@ -50,8 +49,6 @@ Alert 3 is implemented as follows:
   - **Threshold**: WHEN sum() OF http.request.bytes OVER all documents IS ABOVE 3500 FOR THE LAST 1 minute 
   - **Vulnerability Mitigated**: Collective byte for documents. Exploits and Enumeration. 
   - **Reliability**: Threshold is too high to catch meterpreter shells. Low reliability and we see this later. 
-
-![watcher-image](images/watcher.png)
 
 ---------------------------------
 
@@ -108,8 +105,6 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 	CWE's: 
 		- CWE-548: Exposure of Information Through Directory Listing
 		- CWE-672: Operation on a Resource after Expiration of Release
-	
-	![flag1](images/flag1.png)
 
  - `flag3.txt`: 
   - `flag4.txt`:
@@ -140,39 +135,41 @@ At least two users on the network have been wasting time on YouTube. Usually, IT
 
 ## Time Thieves 
 
-1. What is the domain name of the users' custom site?
+1. Custom Domain alias: 
 		- Frank-n-Ted.com
-2. What is the IP address of the Domain Controller (DC) of the AD network? 
+2.  IP address of the Domain Controller (DC) of the AD network? 
 		- 10.6.12.12	
-3. What is the name of the malware downloaded to the 10.6.12.203 machine?
-   - Once you have found the file, export it to your Kali machine's desktop.
+![kerberos](images/kerberos.png)
+
+3.  Name of the malware downloaded to the 10.6.12.203 machine:
+		-June11.dll
 4. Upload the file to [VirusTotal.com](https://www.virustotal.com/gui/). 
-5. What kind of malware is this classified as?
+5. Malware Classification:
 		- Trojan Horse 
 
 ---
 
 ## Vulnerable Windows Machine
 
-1. Find the following information about the infected Windows machine:
+1. Infected Windows Machine:
     - Host name ROTTERDAM-PC
     - IP address 172.16.4.205
     - MAC address 00:59:07:b0:63:a4
     
-2. What is the username of the Windows user whose computer is infected? -> Matthijs.devries
-3. What are the IP addresses used in the actual infection traffic? -> 182.243.115.84
-4. As a bonus, retrieve the desktop background of the Windows host.
+2. Username of infected Windows user: -> Matthijs.devries
+3. IP addresses used in infection traffic -> 182.243.115.84
+4. Desktop Background of host: **empty.gif**
 
 ---
 
 ## Illegal Downloads
 
-1. Find the following information about the machine with IP address `10.0.0.201`:
+1. Machine and Ip Address`10.0.0.201`:
     - MAC address 00:16:17:18:66:c8
     - Windows username: username-blanco 
-    - OS version: 
+    - OS version: **Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134**
 
-2. Which torrent file did the user download?
+2. Torrent File Downloaded:
 		- Betty Boop Rhythm on the Reservation.avi.torrent
 
 
