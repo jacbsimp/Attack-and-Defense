@@ -8,6 +8,10 @@
 - Suggestions for Going Further
 
 ### Network Topology
+<<<<<<< HEAD:README-p3.md
+=======
+
+>>>>>>> 255c010a583e14ffa2eca9718dbfc6f9c172ab02:README.md
 The following machines were identified on the network:
 - Name of VM 1
   - **Operating System**: Linux
