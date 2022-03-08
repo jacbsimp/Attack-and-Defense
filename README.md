@@ -8,7 +8,7 @@
 - Suggestions for Going Further
 
 ### Network Topology
-![image](images/network-topo.png)
+
 The following machines were identified on the network:
 - Name of VM 1
   - **Operating System**: Linux
