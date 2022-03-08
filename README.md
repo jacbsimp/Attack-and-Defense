@@ -153,8 +153,11 @@ At least two users on the network have been wasting time on YouTube. Usually, IT
 
 3.  Name of the malware downloaded to the 10.6.12.203 machine:
 		-June11.dll
-4. Upload the file to [VirusTotal.com](https://www.virustotal.com/gui/). 
-5. Malware Classification:
+		
+#### Upload a Directory of Files  to [VirusTotal.com](https://www.virustotal.com/gui/) Utilizing Virustotal API in Bash. 
+![virustotal-image](images/virustotal.png)
+. 
+7. Malware Classification:
 		- Trojan Horse 
 
 ---
