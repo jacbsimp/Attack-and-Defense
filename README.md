@@ -11,7 +11,7 @@
 <<<<<<< HEAD:README-p3.md
 =======
 
->>>>>>> 255c010a583e14ffa2eca9718dbfc6f9c172ab02:README.md
+
 The following machines were identified on the network:
 - Name of VM 1
   - **Operating System**: Linux
@@ -52,7 +52,7 @@ Alert 3 is implemented as follows:
   - **Metric**: Metricbeat
   - **Threshold**: WHEN sum() OF http.request.bytes OVER all documents IS ABOVE 3500 FOR THE LAST 1 minute 
   - **Vulnerability Mitigated**: Collective byte for documents. Exploits and Enumeration. 
-  - **Reliability**: Threshold is too high to catch meterpreter shells. Low reliability and we see this later. 
+  - **Reliability**: Threshold is too high to catch meterpreter shells. Low reliability as the threshold was set too high.
 
 ---------------------------------
 
@@ -105,6 +105,9 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
     - **Exploit Used**
 		  - Weak SSH Cipher 
 		  - Rainbow Tables
+
+### Aggressive, Passive vs Stealth Modes
+![wpscan detection](images/wpscan-status-c.png)
     
 	CWE's: 
 		- CWE-548: Exposure of Information Through Directory Listing
@@ -123,9 +126,12 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
     - **Exploit Used**
 			- Sudo -l 
 			- sudo python -c 'import pty;pty.spawn("/bin/bash")'
-		
-	CWE's:
-    	- CWE-250: Execution with Unnecessary Privileges 
+
+### Meterpreter Stageless Shell vs Netcat Connection Shell
+![Shell Detection](images/shells.png)
+
+		CWE's:
+			- CWE-250: Execution with Unnecessary Privileges 
  
  ---------------------------------------------------
 
@@ -141,7 +147,7 @@ At least two users on the network have been wasting time on YouTube. Usually, IT
 
 1. Custom Domain alias: 
 		- Frank-n-Ted.com
-2.  IP address of the Domain Controller (DC) of the AD network? 
+2.  IP address of the Domain Controller (DC) of the AD network
 		- 10.6.12.12	
 ![kerberos](images/kerberos.png)
 
