@@ -1,3 +1,10 @@
+# Scoping Wordpress Target 1 
+
+
+------------------
+
+-------------------------
+
 # Blue Team: Summary of Operations
 
 ## Table of Contents
@@ -57,9 +64,21 @@ Alert 3 is implemented as follows:
 # Red Team: Summary of Operations
 
 ## Table of Contents
-- Exposed Services
-- Critical Vulnerabilities
-- Exploitation
+- Scoping Web Machine.
+- Exposed Services.
+- Critical Vulnerabilities.
+- Exploitation.
+
+### Scoping Web Machine
+
+##### Virtualization of wordpress installed by docker:
+![imageravenlocal](images/kaliview.png)
+
+
+##### Wpscan 
+	wpscan --url http://192.168.1.110
+
+
 
 ### Exposed Services
 
@@ -88,6 +107,8 @@ The following vulnerabilities were identified on each target:
 wpscan results; 
 
 	wordpress version 4.8.18
+	
+	
 	
 ### Exploitation
 
@@ -131,6 +152,8 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 			- CWE-250: Execution with Unnecessary Privileges 
  
  ---------------------------------------------------
+ 
+
 
 # Network Forensic Analysis Report
 
