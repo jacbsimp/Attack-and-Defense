@@ -150,7 +150,39 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
 		CWE's:
 			- CWE-250: Execution with Unnecessary Privileges 
- 
+			
+			
+### Vulnerable to CVE-2017-7533
+# Linux Kernel < 3.16.39 (Debian 8 x64) - 'inotfiy' Local Privilege Escalation
+
+Buffer Overflow Attack where "test_dir" is created with full permissions in the current directory without sudo priviledges. This is an older exploit for older linux systems. 
+
+*from exploit db [Linux Kernel < 3.16.39 (Debian 8 x64) - 'inotfiy' Local Privilege Escalation - Linux_x86-64 local Exploit (exploit-db.com)](https://www.exploit-db.com/exploits/44302)*
+
+![inotify](images/test_dir.png)
+
+Where a fully +777 file can be created with a file inside containing code to execute. 
+
+![buffer exploit](images/file_Creation.png)
+
+file "F" is created within a directory with priviledges above normal without sudo. 
+
+###### pyspy root crontabs  
+![pyspy](images/pyspy.png)
+
+The inotify attack can be used to grant permissions to write in cron and logrotations. 
+
+![folders](images/folders.png)
+
+
+
+##### Sendmail 
+![sendmail](images/email.png)
+
+Email sending the php script that encodes a reverse shell and unpacks php. 
+
+
+
  ---------------------------------------------------
  
 
