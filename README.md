@@ -1,5 +1,5 @@
 # Scoping Wordpress Target 1 
-![session](images/network.svg)
+![session](images/network3.svg)
 
 ------------------
 
