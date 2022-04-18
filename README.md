@@ -195,16 +195,14 @@ At least two users on the network have been wasting time on YouTube. Usually, IT
 -   They are constantly watching videos on YouTube.
 -   Their IP addresses are somewhere in the range `10.6.12.0/24`.
 
-## Time Thieves 
+## Wireshark
 
-1. Custom Domain alias: 
-		- Frank-n-Ted.com
-2.  IP address of the Domain Controller (DC) of the AD network
++ Custom Domain alias and the IP address of the Domain Controller (DC) of the AD:
 		- 10.6.12.12	
 ![kerberos](images/kerberos.png)
 
-3.  Name of the malware downloaded to the 10.6.12.203 machine:
-		-June11.dll
++ Malware downloaded to the 10.6.12.203 machine:
+		
 		
 #### Upload a Directory of Files  to [VirusTotal.com](https://www.virustotal.com/gui/) Utilizing Virustotal API in Bash. 
 ![virustotal-image](images/virustotal.png)
@@ -213,6 +211,16 @@ At least two users on the network have been wasting time on YouTube. Usually, IT
 		- Trojan Horse 
 
 ---
+## Illegal Downloads
+
+1. Machine and Ip Address`10.0.0.201`:
+    - MAC address 00:16:17:18:66:c8
+    - Windows username: username-blanco 
+    - OS version: **Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134**
+
+2. Torrent File Downloaded:
+		- avi.torrent
+
 
 ## Vulnerable Windows Machine
 
@@ -225,17 +233,6 @@ At least two users on the network have been wasting time on YouTube. Usually, IT
 3. IP addresses used in infection traffic -> 182.243.115.84
 4. Desktop Background of host: **empty.gif**
 
----
-
-## Illegal Downloads
-
-1. Machine and Ip Address`10.0.0.201`:
-    - MAC address 00:16:17:18:66:c8
-    - Windows username: username-blanco 
-    - OS version: **Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134**
-
-2. Torrent File Downloaded:
-		- Betty Boop Rhythm on the Reservation.avi.torrent
 
 
 
