@@ -179,7 +179,7 @@ Modify Symlinks
 ##### Sendmail 
 ![sendmail](images/email.png)
 
-Email sending the php script that encodes a reverse shell and unpacks php. 
+Email sending the php script Sendail 
 
 
 
