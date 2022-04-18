@@ -174,15 +174,6 @@ The inotify attack can be used to grant permissions to write in cron and logrota
 
 ![folders](images/folders.png)
 
-Modify Symlinks 
-
-##### Sendmail 
-![sendmail](images/email.png)
-
-Email sending the php script Sendail 
-
-
-
  ---------------------------------------------------
  
 
